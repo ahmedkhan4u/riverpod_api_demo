@@ -32,7 +32,13 @@ class MyHomePage extends StatelessWidget {
     debugPrint("Widget Build");
 
     return Scaffold(
-      appBar: AppBar(title: const Text("Posts", style: TextStyle(color: Colors.white),), backgroundColor: Colors.orangeAccent,),
+      appBar: AppBar(
+        title: const Text(
+          "Posts",
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.orangeAccent,
+      ),
       body: Consumer(
         builder: (context, ref, child) {
           final postState = ref.watch(postsProvider);
