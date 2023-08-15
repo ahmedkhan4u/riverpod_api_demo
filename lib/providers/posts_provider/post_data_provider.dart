@@ -8,3 +8,4 @@ final postsProvider =
 /// If you don't want to preserve the state add (autoDispose) along with State Notifier Provider
 // final postsProvider =
 // StateNotifierProvider.autoDispose<PostsNotifier, PostsState>((ref) => PostsNotifier());
+///.....
